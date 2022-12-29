@@ -1,0 +1,33 @@
+body{
+    text-align: center;
+}
+.button{
+    display: inline-block;
+
+}
+input{
+    cursor: pointer;
+}
+.moon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.border{
+    height: 500px;
+    width: 500px;
+    display: flex;
+    border: 5px solid gray;
+    border-radius: 10px;
+    
+}
+.border> div{
+    
+    display: flex;
+    flex:1;
+    flex-direction: column;
+}
+.border > div >*{
+    flex: 1;
+}
