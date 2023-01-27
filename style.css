@@ -1,18 +1,21 @@
 body{
     text-align: center;
+    background-color:#80ff80;
 }
 .button{
     display: inline-block;
-
+    justify-content: stretch;
+     width: 700px;
 }
 input{
     cursor: pointer;
+    border: 2px solid #581845;
+    border-radius: 3px;
 }
 .moon{
     display: flex;
     align-items: center;
     justify-content: center;
-    
 }
 .border{
     height: 500px;
@@ -20,14 +23,22 @@ input{
     display: flex;
     border: 5px solid gray;
     border-radius: 10px;
-    
+    background-color: #fff;
 }
 .border> div{
     
     display: flex;
     flex:1;
     flex-direction: column;
+    border: 1px solid #eeeee4;
 }
 .border > div >*{
     flex: 1;
+    border: 1px solid #eeeee4;
+}
+input::placeholder {
+    font-weight: bold;
+    opacity: 0.5;
+    color: red;
+    letter-spacing: 0px;
 }
